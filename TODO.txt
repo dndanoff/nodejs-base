@@ -1,0 +1,12 @@
+CLI:
+https://bvgsoftware.com/blog/how-to-build-a-command-line-application-with-node/
+https://developer.okta.com/blog/2019/06/18/command-line-app-with-nodejs
+https://www.youtube.com/watch?v=_oHByo8tiEY
+
+Db SQLITE:
+
+Dependecy injection:
+tsyringe
+
+Cache:
+
