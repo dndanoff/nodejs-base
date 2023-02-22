@@ -6,7 +6,7 @@ import { config, nodeEnvs } from './config.js';
 const streams = [{ stream: process.stdout }];
 if (config.nodeEnv !== nodeEnvs.test) {
     const logsDir = path.join(config.rootPath, 'logs');
-    fs.mkdirSync(config.rootPath, { recursive: true });
+    fs.mkdirSync(logsDir, { recursive: true });
     // TODO Logs do not rotate for this we need another library such as logrotate
     streams.push({
         stream: pino.destination({
